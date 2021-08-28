@@ -1,12 +1,5 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,6 +16,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.app{
+  font-family: 'Work Sans', sans-serif;
+}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +32,78 @@
     transform: rotate(360deg);
   }
 }
+
+
+.wrapper{
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 500px 800px auto;
+  grid-template-rows: 200px;
+}
+.gridItem{
+
+}
+.imagePicker{
+  display: block;
+}
+
+.imageForm{
+ padding-top: 1em;
+ padding-left:.5em;
+ padding-right:1em;
+}
+.subheader{
+  text-decoration: underline;
+  padding: .5em;
+}
+
+.appText{
+  font-family: 'Work Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: rgb(127, 140, 255);
+}
+.srcCodeLink{
+  color:rgb(84, 101, 250);
+  padding-left: 1em;
+}
+li{
+  list-style: none;
+}
+.asteroidTable{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+.asteroidTable td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.asteroidTable tr:nth-child(even) {
+  background-color: rgb(204, 208, 252);
+}
+
+.CmeContainer{
+  margin-left: 1.5em;
+  margin-right: 2em;
+}
+
+.cmeCards{
+  height: 400px;
+  overflow-y: auto;
+ 
+}
+.radarChart{
+  justify-content: center;
+  margin: 0 auto;
+}
+.coronaChartHeading{
+  margin-top: .5em;
+  text-align: center;
+}
+
